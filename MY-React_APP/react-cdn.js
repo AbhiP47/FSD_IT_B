@@ -1,0 +1,11 @@
+const parent = document.getElementById("root");
+const element = React.createElement("h1", {}, "This is new heading");
+const root = ReactDOM.createRoot(parent);
+//root.render(element);
+const h1 = React.createElement("h1", {}, "Shopping Cart");
+//root.render([element,h1]);
+const item1 = React.createElement("li", {}, "ITEM-1");
+const item2 = React.createElement("li", {}, "ITEM-2");
+const list = React.createElement("ol", {}, item1, item2);
+const welcome = <h1>This is using JSx</h1>;
+root.render([element, h1, list, welcome]);
