@@ -4,7 +4,11 @@ imp;
 function App() {
   return (
     <>
-      <h1>My Quiz App</h1>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/login" element={<h1>Login Page</h1>}></Route>
+        <Route path="/logout" element={<h1>Logout Page</h1>}></Route>
+      </Routes>
     </>
   );
 }

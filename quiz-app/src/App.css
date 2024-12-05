@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#header {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 100vw;
+  height: 10vh;
+}
+#footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  width: 100vw;
+  height: 5vh;
+}
+.quiz-container {
+  width: 100vw;
+  height: 85vh;
+  background-color: violet;
+  color: bisque;
+}
+
+.quiz {
+  font-size: 20px;
+}
+#previous {
+  width: 100px;
+  height: 50px;
+}
+#next {
+  width: 100px;
+  height: 50px;
+}
